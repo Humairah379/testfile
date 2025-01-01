@@ -1,0 +1,26 @@
+//Basic Javascript Programme
+function greet(name) {
+  return "Hello, " +name + "!";
+}
+
+const personName= "John";
+const greeting = greet(personName);
+console.log(greeting);
+
+//Create array of numbers
+const numbers = [1,2,3,4,5];
+
+//Calculate sum of numbers in array
+let sum = 0;
+for(const num of numbers) {
+  sum += num;
+}
+console.log("Sum of numbers: ", sum);
+
+//Odd or even
+function isEven(number) {
+  return number % 2 === 0;
+}
+
+const testNumber = 7;
+console.log(testNumber, "is even: ", isEven(testNumber));
